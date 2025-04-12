@@ -8,7 +8,7 @@ WORKDIR /api
 RUN npm install -g @warren-bank/hls-proxy
 
 # Expose the port the app will run on
-EXPOSE 5050
+EXPOSE 8000
 
 # Command to start the proxy
-CMD ["hlsd", "--port", "5050"]
+CMD ["hlsd", "--port", "8000"]
