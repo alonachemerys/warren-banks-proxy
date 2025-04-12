@@ -2,7 +2,7 @@
 FROM node:18-alpine
 
 # Set working directory
-WORKDIR /app
+WORKDIR /api
 
 # Install the hls-proxy package globally
 RUN npm install -g @warren-bank/hls-proxy
